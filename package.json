@@ -1,0 +1,40 @@
+{
+  "name": "panda-vivid-black",
+  "displayName": "Panda Vivid Black",
+  "description": "Panda Syntax token semantics on a pure-black Vivid Black UI. Designed for Operator Mono.",
+  "version": "1.0.0",
+  "publisher": "BennyWu",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "panda",
+    "dark",
+    "black",
+    "operator mono",
+    "color-theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BugsBunny-7/Panda-Vivid-Black-vscode.git"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Panda Vivid Black",
+        "uiTheme": "vs-dark",
+        "path": "./themes/panda-vivid-black-color-theme.json"
+      }
+    ]
+  },
+  "files": [
+    "themes/**",
+    "README.md",
+    "LICENSE"
+  ]
+}
