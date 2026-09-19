@@ -31,10 +31,12 @@ This theme is tuned for **Operator Mono** (italic-heavy token styling). Set in V
 | Parameter | `#FF8A3D` orange (italic) |
 | Property | `#00CFFF` cyan |
 | Tag | `#FF2D8D` magenta |
-| Comment | `#6B6E80` gray (italic) |
+| Comment | `#898DA5` gray (italic) |
 
 ## Highlighting during startup
 
 Basic syntax highlighting and semantic highlighting share the same palette for recognized types, functions, keywords, and comments. Types are teal and italic before the language server is ready. Semantic highlighting remains enabled and can refine identifiers once project analysis completes.
 
 The editor, editor gutter, minimap, panel, and terminal use `#0b0b0e` directly from the theme; no user color override is required.
+
+Original syntax colors are preserved. Only comments and muted text have their RGB channels lifted by 20%, followed by a further 7% (channels cap at 255). Backgrounds and selection fills retain their existing colors.
