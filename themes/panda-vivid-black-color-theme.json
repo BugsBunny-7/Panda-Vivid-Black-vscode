@@ -38,8 +38,8 @@
     "activityBar.background": "#090A0CFF",
     "activityBar.foreground": "#4FB6FF",
     "activityBar.inactiveForeground": "#B0B1BCFF",
-    "activityBarBadge.background": "#A970FFFF",
-    "activityBarBadge.foreground": "#F5F5FAFF",
+    "activityBarBadge.background": "#4FB6FF",
+    "activityBarBadge.foreground": "#242526",
     "activityBarTop.background": "#090A0CFF",
     "activityBarTop.foreground": "#4FB6FF",
     "activityBarTop.inactiveForeground": "#B0B1BCFF",
@@ -165,8 +165,8 @@
     "terminalCursor.background": "#E6E6E6",
     "tab.unfocusedActiveForeground": "#4FB6FF",
     "activityBar.activeBorder": "#4FB6FF",
-    "panelTitle.activeForeground": "#E7E7E7",
-    "panelTitle.activeBorder": "#E7E7E7",
+    "panelTitle.activeForeground": "#4FB6FF",
+    "panelTitle.activeBorder": "#4FB6FF",
     "panelTitle.inactiveForeground": "#E7E7E799",
     "statusBar.debuggingBackground": "#0A0B0EFF",
     "statusBar.noFolderBackground": "#0A0B0EFF",
@@ -187,13 +187,13 @@
     {
       "scope": "keyword",
       "settings": {
-        "foreground": "#FF6BA8"
+        "foreground": "#FF4F9D"
       }
     },
     {
       "scope": "keyword.control, keyword.operator.new",
       "settings": {
-        "foreground": "#FF6BA8"
+        "foreground": "#FF4F9D"
       }
     },
     {
@@ -211,7 +211,7 @@
     {
       "scope": "keyword.operator.misc, keyword.operator.sigil",
       "settings": {
-        "foreground": "#FF6BA8"
+        "foreground": "#FF4F9D"
       }
     },
     {
@@ -783,7 +783,7 @@
       "name": "Dart modifiers and primitive keywords",
       "scope": "storage.modifier.dart, storage.type.primitive.dart",
       "settings": {
-        "foreground": "#FF6BA8",
+        "foreground": "#FF4F9D",
         "fontStyle": ""
       }
     },
@@ -806,14 +806,14 @@
       "name": "Dart language keywords before semantic highlighting",
       "scope": "variable.language.dart",
       "settings": {
-        "foreground": "#FF6BA8",
+        "foreground": "#FF4F9D",
         "fontStyle": ""
       }
     }
   ],
   "semanticTokenColors": {
     "comment": "#898DA5",
-    "keyword": "#FF6BA8",
+    "keyword": "#FF4F9D",
     "function": "#4FB6FF",
     "method": "#4FB6FF",
     "type": {

@@ -1,7 +1,7 @@
 {
   "name": "panda-vivid-black",
   "displayName": "Panda Vivid Black",
-  "description": "Panda Syntax token semantics on a near-black Vivid Black UI. Designed for Operator Mono.",
+  "description": "A near-black theme with vivid syntax colors, readable selections, and semantic highlighting for Flutter, Go and Vue.",
   "version": "1.0.0",
   "publisher": "BennyWu",
   "license": "MIT",
@@ -13,11 +13,12 @@
   ],
   "keywords": [
     "theme",
-    "panda",
     "dark",
     "black",
-    "operator mono",
-    "color-theme"
+    "panda",
+    "flutter",
+    "go",
+    "vue"
   ],
   "repository": {
     "type": "git",
@@ -35,6 +36,18 @@
   "files": [
     "themes/**",
     "README.md",
-    "LICENSE"
-  ]
+    "CHANGELOG.md",
+    "LICENSE",
+    "icon.png",
+    "images/**"
+  ],
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#0B0B0E",
+    "theme": "dark"
+  },
+  "homepage": "https://github.com/BugsBunny-7/Panda-Vivid-Black-vscode#readme",
+  "bugs": {
+    "url": "https://github.com/BugsBunny-7/Panda-Vivid-Black-vscode/issues"
+  }
 }
