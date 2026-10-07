@@ -12,6 +12,29 @@ Designed around everyday **Flutter / Dart, Go, and Vue / JavaScript / TypeScript
 
 [中文介绍](#中文介绍) · [Source code](https://github.com/BugsBunny-7/Panda-Vivid-Black-vscode) · [Report an issue](https://github.com/BugsBunny-7/Panda-Vivid-Black-vscode/issues)
 
+## Panda Modern Dark / 新增主题
+
+**Panda Modern Dark** starts from a complete, frozen copy of VS Code's **2026 Dark** theme, including its inherited Dark Modern, Dark+, and Visual Studio Dark rules. The original **Panda Vivid Black** remains available with its existing colors.
+
+Panda Modern Dark 以「2026 深色」完整副本为基础，按参考图调整为近黑背景、橙色关键字、浅蓝类型名、紫色函数名、灰白正文和中灰注释。参考图未出现的颜色，也根据对应色之间的差值一起调整，保留原有透明度。灰阶与彩色分别计算，避免把彩色语法提浅发白；字符串使用「2026 深色」JSON 键名的绿色 `#7EE787`，括号采用参考图中的灰白色。Dart 基础高亮与常用语义标记对齐参考图中的角色颜色。
+
+| Role / 用途 | Color / 颜色 |
+| --- | --- |
+| Editor background / 编辑器背景 | `#0C0C0C` |
+| Header / 标题背景 | `#0F0F0F` |
+| Border / 边框 | `#272727` |
+| Keywords and operators / 关键字、运算符 | `#FF804F` |
+| Types / 类型 | `#79B8FF` |
+| Functions / 函数 | `#B084FF` |
+| Strings / 字符串 | `#7EE787` · 2026 Dark JSON key green |
+| Text / 正文 | `#E8E8E8` |
+| CodeLens / Run、Debug、Profile | `#E8E8E8` |
+| Dart annotations / Dart 注解 | `#FFA618` |
+| Comments / 注释 | `#888888` |
+| Inactive line numbers / 非当前行行号 | `#3D3D3D` |
+
+These are representative colors sampled from a JPEG reference, not the unknown original theme's exact source values. The complete baseline, palette-difference method, and source provenance are documented in [Panda Modern Dark palette notes](docs/panda-modern-dark.md). In a build containing this variant, select **Panda Modern Dark** from **Preferences: Color Theme**.
+
 ## In the editor / 实际运行截图
 
 Captured in VS Code on macOS with Panda Vivid Black installed. These are real editor captures of sample code, not generated mockups. Fonts, icons, layout, and extra extension decorations shown are personal editor settings and are not bundled with the theme.

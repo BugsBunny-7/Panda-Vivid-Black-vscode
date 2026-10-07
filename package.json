@@ -1,7 +1,7 @@
 {
   "name": "panda-vivid-black",
   "displayName": "Panda Vivid Black",
-  "description": "A near-black theme with vivid syntax colors, readable selections, and semantic highlighting for Flutter, Go and Vue.",
+  "description": "Panda Vivid Black and Panda Modern Dark: near-black themes with semantic highlighting for Flutter, Go and Vue.",
   "version": "1.0.0",
   "publisher": "BennyWu",
   "license": "MIT",
@@ -30,6 +30,11 @@
         "label": "Panda Vivid Black",
         "uiTheme": "vs-dark",
         "path": "./themes/panda-vivid-black-color-theme.json"
+      },
+      {
+        "label": "Panda Modern Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/panda-modern-dark-color-theme.json"
       }
     ]
   },
@@ -38,6 +43,8 @@
     "README.md",
     "CHANGELOG.md",
     "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "docs/**",
     "icon.png",
     "images/**"
   ],
