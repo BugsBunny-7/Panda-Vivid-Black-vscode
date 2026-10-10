@@ -67,8 +67,9 @@ result(c) = c + Δ(c)
 - 活动标签背景：`#121314 → #0F0F0F`；活动标签文字：`#BFBFBF → #E8E8E8`。
 - Dart 关键字、运算符、修饰符、原生类型关键字为橙色，类型名为蓝色，函数名为紫色，普通标识符为灰白。追加实际 Dart 语法作用域，避免继承的 Dark+ 更具体规则覆盖这些颜色。
 - 常用语义角色使用同一组颜色，避免语言服务分析后把类、函数或变量换成另一套配色。其他继承语义角色仍按差值计算。
-- CodeLens 的 `Run | Debug | Profile` 使用属性同色的灰白 `#E8E8E8`，取代试用的纯白色。
-- Dart 注解整体沿用 `@` 的浅金色 `#FFA618`。同时覆盖 `storage.type.annotation.dart`、`annotation:dart` 与 `*.annotation:dart`，使符号和带 annotation 修饰符的名称保持一致；普通属性仍为灰白。
+- CodeLens 的 `Run | Debug | Profile` 使用灰白 `#E8E8E8`，取代试用的纯白色。
+- Dart 注解整体沿用 `@` 的浅金色 `#FFA618`。同时覆盖 `storage.type.annotation.dart`、`annotation:dart` 与 `*.annotation:dart`，使符号和带 annotation 修饰符的名称保持一致。
+- 1.1.1 将属性与 Dart 命名参数标签设为青蓝 `#00D2F9`：语义规则为 `property` 与 `parameter.label:dart`，TextMate 补充 `variable.other.property` 和 `variable.other.object.property`。实际令牌检查确认 `listenable:` 属于带 `label` 修饰符的 `parameter`；不覆盖通用 `parameter`，保留 `context` 等普通参数的灰白色。类名、返回类型和函数名沿用原色。
 - 普通字符串与引号明确覆盖为 `#7EE787`，同时覆盖 TextMate 和 `string` / `stringLiteral` 语义角色；转义与插值代码仍保留各自的高亮。JSON 键名保持相同绿色。
 - 六级括号统一灰白 `#E8E8E8`，配对引导线用深灰，避免编辑器默认的黄紫彩虹色盖过主题配色。此改动只属于新主题；不修改用户的括号开关或 indent-rainbow 扩展设置。
 

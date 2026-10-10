@@ -1,13 +1,17 @@
 # Changelog
 
-## Unreleased
+## 1.1.1 — 2026-10-10
+
+- Use cyan (`#00D2F9`) for properties and Dart named argument labels in Panda Modern Dark.
+- Preserve blue class and return type names, purple functions, and gray-white ordinary variables and parameters.
+
+## 1.1.0 — 2026-10-07
 
 - Add Panda Modern Dark alongside Panda Vivid Black, based on a complete VS Code 2026 Dark snapshot.
-- Match the reference image's main colors and propagate their perceptual color differences to the remaining palette while preserving opacity.
-- Align Dart syntax and common semantic token roles with the reference palette.
-- Increase remaining chromatic colors at fixed perceptual lightness while preserving sampled anchors and the chosen string green.
-- Keep neutral brightness changes out of chromatic colors; use 2026 Dark JSON key green for strings and neutral bracket colors.
-- Match CodeLens text to property gray-white and unify Dart annotation symbols and names in gold across syntax and semantic highlighting.
+- Introduce near-black surfaces, orange keywords, blue types, purple functions, green strings, and gray-white properties and parameters in Panda Modern Dark.
+- Align Dart syntax and common semantic token colors, with neutral brackets, readable CodeLens text, and consistent gold annotations.
+- Bundle the frozen base theme, palette notes, and third-party license notices.
+- Keep Panda Vivid Black's existing colors unchanged. Select either theme from Preferences: Color Theme.
 
 ## 1.0.0
 

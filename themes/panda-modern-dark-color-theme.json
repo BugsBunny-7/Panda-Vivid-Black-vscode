@@ -1401,6 +1401,16 @@
       "settings": {
         "foreground": "#7EE787"
       }
+    },
+    {
+      "name": "Cyan properties",
+      "scope": [
+        "variable.other.property",
+        "variable.other.object.property"
+      ],
+      "settings": {
+        "foreground": "#00D2F9"
+      }
     }
   ],
   "semanticHighlighting": true,
@@ -1422,7 +1432,8 @@
     "method": "#B084FF",
     "variable": "#E8E8E8",
     "parameter": "#E8E8E8",
-    "property": "#E8E8E8",
+    "property": "#00D2F9",
+    "parameter.label:dart": "#00D2F9",
     "string": "#7EE787",
     "annotation:dart": "#FFA618",
     "*.annotation:dart": "#FFA618"
