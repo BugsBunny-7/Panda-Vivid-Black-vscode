@@ -1,0 +1,22 @@
+<idea-plugin>
+  <id>com.bennywu.panda-modern-dark</id>
+  <name>Panda Modern Dark</name>
+  <version>1.0.0</version>
+  <vendor url="https://github.com/BugsBunny-7/Panda-Vivid-Black-vscode">BennyWu</vendor>
+  <description><![CDATA[
+    <p>Panda Modern Dark for IntelliJ IDEA and Android Studio.</p>
+    <p>Near-black surfaces, blue types, purple functions, cyan properties,
+    orange keywords, green strings, and neutral ordinary parameters.</p>
+    <p>Includes Java, Kotlin, Dart, and XML editor colors. Dart highlighting
+    requires the Dart plugin. Dart named argument labels remain neutral because
+    the Dart plugin shares their color key with ordinary parameter references.</p>
+  ]]></description>
+  <change-notes><![CDATA[
+    First JetBrains release, based on the approved Panda Modern Dark VS Code 1.1.1 palette.
+  ]]></change-notes>
+  <idea-version since-build="243"/>
+  <depends>com.intellij.modules.platform</depends>
+  <extensions defaultExtensionNs="com.intellij">
+    <themeProvider id="527dccbd-e632-48d4-96f0-0a7d48e85d63" path="/Panda Modern Dark.theme.json"/>
+  </extensions>
+</idea-plugin>

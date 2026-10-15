@@ -38,6 +38,12 @@ Panda Modern Dark 以「2026 深色」完整副本为基础，按参考图调整
 
 Most colors are representative values sampled from a JPEG reference, not the unknown original theme's exact source values. Version **1.1.1** adds the chosen cyan accent for properties and Dart named argument labels while keeping ordinary parameters gray-white. The complete baseline, palette-difference method, and source provenance are documented in [Panda Modern Dark palette notes](docs/panda-modern-dark.md). Select **Panda Modern Dark** from **Preferences: Color Theme**.
 
+## IntelliJ IDEA / Android Studio
+
+The JetBrains edition of Panda Modern Dark uses the same approved palette. See [installation instructions and platform differences](jetbrains/README.md).
+
+Panda Modern Dark 已提供 IDEA / Android Studio 通用版本，安装方法及 Dart 高亮差异见 [JetBrains 版本说明](jetbrains/README.md)。
+
 ## In the editor / 实际运行截图
 
 Captured in VS Code on macOS with Panda Vivid Black installed. These are real editor captures of sample code, not generated mockups. Fonts, icons, layout, and extra extension decorations shown are personal editor settings and are not bundled with the theme.
