@@ -6,7 +6,7 @@
 
 **A quiet dark workspace. Vivid, readable code.**
 
-Includes two themes: **Panda Vivid Black** and, new in **1.1.0**, **Panda Modern Dark**.
+Includes three themes: **Panda Vivid Black**, **Panda Modern Dark**, and, new in **1.2.0**, **Panda Modern Cyan**.
 
 Panda Vivid Black pairs a near-black editor with bright blue functions, teal strings and types, magenta keywords, and soft gray comments. Built by **BennyWu**, it brings Panda-inspired syntax colors to a carefully tuned dark interface.
 
@@ -38,6 +38,31 @@ Panda Modern Dark 以「2026 深色」完整副本为基础，按参考图调整
 
 Most colors are representative values sampled from a JPEG reference, not the unknown original theme's exact source values. Version **1.1.1** adds the chosen cyan accent for properties and Dart named argument labels while keeping ordinary parameters gray-white. The complete baseline, palette-difference method, and source provenance are documented in [Panda Modern Dark palette notes](docs/panda-modern-dark.md). Select **Panda Modern Dark** from **Preferences: Color Theme**.
 
+
+## Panda Modern Cyan / 新增主题
+
+**Panda Modern Cyan** is a standalone variant of Panda Modern Dark. Types and class names use cyan (`#00C9B0`); properties and Dart named argument labels use blue (`#79B8FF`). Keywords, functions, strings, annotations, and the UI colors stay the same as Panda Modern Dark.
+
+**Panda Modern Cyan** 是 Panda Modern Dark 的独立配色版本：类型与类名使用青色 `#00C9B0`，属性与 Dart 命名参数标签使用浅蓝 `#79B8FF`。关键字、函数、字符串、注解以及界面颜色与 Modern Dark 保持一致。
+
+| Role / 用途 | Color / 颜色 |
+| --- | --- |
+| Editor background / 编辑器背景 | `#0C0C0C` |
+| Header / 标题背景 | `#0F0F0F` |
+| Border / 边框 | `#272727` |
+| Keywords and operators / 关键字、运算符 | `#FF804F` |
+| Types / 类型 | `#00C9B0` |
+| Functions / 函数 | `#B084FF` |
+| Properties and Dart named argument labels / 属性与 Dart 命名参数标签 | `#79B8FF` |
+| Strings / 字符串 | `#7EE787` · 2026 Dark JSON key green |
+| Text / 正文 | `#E8E8E8` |
+| CodeLens / Run、Debug、Profile | `#E8E8E8` |
+| Dart annotations / Dart 注解 | `#FFA618` |
+| Comments / 注释 | `#888888` |
+| Inactive line numbers / 非当前行行号 | `#3D3D3D` |
+
+Select **Panda Modern Cyan** from **Preferences: Color Theme**.
+
 ## In the editor / 实际运行截图
 
 Captured in VS Code on macOS with Panda Vivid Black installed. These are real editor captures of sample code, not generated mockups. Fonts, icons, layout, and extra extension decorations shown are personal editor settings and are not bundled with the theme.
@@ -64,8 +89,8 @@ Captured in VS Code on macOS with Panda Vivid Black installed. These are real ed
 ## Install and activate
 
 1. Open **Extensions** in VS Code and search for **Panda Vivid Black** by **BennyWu**.
-2. Install or update the extension to **1.1.0** or later.
-3. Open the Command Palette, run **Preferences: Color Theme**, and select **Panda Vivid Black** or **Panda Modern Dark**.
+2. Install or update the extension to **1.2.0** or later.
+3. Open the Command Palette, run **Preferences: Color Theme**, and select **Panda Vivid Black**, **Panda Modern Dark**, or **Panda Modern Cyan**.
 
 The extension changes colors only. Keep your preferred fonts, formatters, language extensions, and editor layout.
 
@@ -196,7 +221,9 @@ Panda Vivid Black 是由 **BennyWu** 制作的近黑色 VS Code 主题，面向�
 
 **Panda Modern Dark：** 近黑背景、橙色关键字、蓝色类型名、紫色函数名和绿色字符串。**1.1.1** 将属性与 Dart 命名参数标签改为青蓝 `#00D2F9`，普通变量与参数保持灰白。原有 Panda Vivid Black 配色保持不变。
 
-**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.1.0** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black** 或 **Panda Modern Dark**。不要求更换字体，也不会修改你的格式化与编辑习惯。
+**Panda Modern Cyan：** **1.2.0** 新增。在 Modern Dark 界面上，将类型与类名改为青色 `#00C9B0`，属性与 Dart 命名参数标签改为浅蓝 `#79B8FF`。关键字、函数、字符串和注解配色保持不变。
+
+**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.2.0** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark** 或 **Panda Modern Cyan**。不要求更换字体，也不会修改你的格式化与编辑习惯。
 
 语义颜色取决于语言扩展的分析结果。主题会尽量统一基础高亮与语义高亮的配色，但不承诺语言服务启动耗时。
 

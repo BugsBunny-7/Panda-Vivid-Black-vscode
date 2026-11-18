@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.2.0 — 2026-11-18
+
+- Add Panda Modern Cyan, a standalone variant of Panda Modern Dark.
+- Use cyan (`#00C9B0`) for types and class names, and blue (`#79B8FF`) for properties and Dart named argument labels.
+- Keep keywords, functions, strings, annotations, and the Modern Dark UI colors unchanged.
+
+
 ## 1.1.1 — 2026-10-10
 
 - Use cyan (`#00D2F9`) for properties and Dart named argument labels in Panda Modern Dark.
