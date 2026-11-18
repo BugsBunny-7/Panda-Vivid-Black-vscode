@@ -52,8 +52,8 @@ Most colors are representative values sampled from a JPEG reference, not the unk
 | Border / 边框 | `#272727` |
 | Keywords and operators / 关键字、运算符 | `#FF804F` |
 | Types / 类型 | `#00C9B0` |
-| Functions / 函数 | `#B084FF` |
-| Properties and Dart named argument labels / 属性与 Dart 命名参数标签 | `#79B8FF` |
+| Functions, property access and fields / 函数、属性访问与字段 | `#B084FF` |
+| Member method calls and Dart named argument labels / 成员方法调用与 Dart 命名参数标签 | `#79B8FF` |
 | Strings / 字符串 | `#7EE787` · 2026 Dark JSON key green |
 | Text / 正文 | `#E8E8E8` |
 | CodeLens / Run、Debug、Profile | `#E8E8E8` |
@@ -89,7 +89,7 @@ Captured in VS Code on macOS with Panda Vivid Black installed. These are real ed
 ## Install and activate
 
 1. Open **Extensions** in VS Code and search for **Panda Vivid Black** by **BennyWu**.
-2. Install or update the extension to **1.2.0** or later.
+2. Install or update the extension to **1.2.1** or later.
 3. Open the Command Palette, run **Preferences: Color Theme**, and select **Panda Vivid Black**, **Panda Modern Dark**, or **Panda Modern Cyan**.
 
 The extension changes colors only. Keep your preferred fonts, formatters, language extensions, and editor layout.
@@ -221,9 +221,9 @@ Panda Vivid Black 是由 **BennyWu** 制作的近黑色 VS Code 主题，面向�
 
 **Panda Modern Dark：** 近黑背景、橙色关键字、蓝色类型名、紫色函数名和绿色字符串。**1.1.1** 将属性与 Dart 命名参数标签改为青蓝 `#00D2F9`，普通变量与参数保持灰白。原有 Panda Vivid Black 配色保持不变。
 
-**Panda Modern Cyan：** **1.2.0** 新增。在 Modern Dark 界面上，将类型与类名改为青色 `#00C9B0`，属性与 Dart 命名参数标签改为浅蓝 `#79B8FF`。关键字、函数、字符串和注解配色保持不变。
+**Panda Modern Cyan：** **1.2.0** 新增。在 Modern Dark 界面上，将类型与类名改为青色 `#00C9B0`，属性与 Dart 命名参数标签改为浅蓝 `#79B8FF`。关键字、函数、字符串和注解配色保持不变。**1.2.1** 起，属性访问与字段改用紫色 `#B084FF`，`.map()` 等成员方法调用改用浅蓝 `#79B8FF`，命名参数标签与函数声明颜色不变。
 
-**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.2.0** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark** 或 **Panda Modern Cyan**。不要求更换字体，也不会修改你的格式化与编辑习惯。
+**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.2.1** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark** 或 **Panda Modern Cyan**。不要求更换字体，也不会修改你的格式化与编辑习惯。
 
 语义颜色取决于语言扩展的分析结果。主题会尽量统一基础高亮与语义高亮的配色，但不承诺语言服务启动耗时。
 

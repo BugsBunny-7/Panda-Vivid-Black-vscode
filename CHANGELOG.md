@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.1 — 2026-11-18
+
+- Panda Modern Cyan: property access, fields, and getters use purple (`#B084FF`) in Dart, TypeScript, JavaScript, and Vue; member method calls such as `.map()` and `User.fromJson()` use blue (`#79B8FF`). Function and method declarations, plain function calls, named argument labels, and object keys keep their colors.
+
 ## 1.2.0 — 2026-11-18
 
 - Add Panda Modern Cyan, a standalone variant of Panda Modern Dark.

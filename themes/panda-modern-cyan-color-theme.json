@@ -1411,6 +1411,22 @@
       "settings": {
         "foreground": "#79B8FF"
       }
+    },
+    {
+      "name": "Mixed purple: TS/JS/Vue property access",
+      "scope": [
+        "variable.other.property.ts",
+        "variable.other.object.property.ts",
+        "variable.other.property.tsx",
+        "variable.other.object.property.tsx",
+        "variable.other.property.js",
+        "variable.other.object.property.js",
+        "variable.other.property.jsx",
+        "variable.other.object.property.jsx"
+      ],
+      "settings": {
+        "foreground": "#B084FF"
+      }
     }
   ],
   "semanticHighlighting": true,
@@ -1436,6 +1452,34 @@
     "parameter.label:dart": "#79B8FF",
     "string": "#7EE787",
     "annotation:dart": "#FFA618",
-    "*.annotation:dart": "#FFA618"
+    "*.annotation:dart": "#FFA618",
+    "property.instance:dart": "#B084FF",
+    "property.static:dart": "#B084FF",
+    "variable.instance:dart": "#B084FF",
+    "method:dart": "#79B8FF",
+    "method.declaration:dart": "#B084FF",
+    "method.annotation:dart": "#FFA618",
+    "property.instance.annotation:dart": "#FFA618",
+    "property.static.annotation:dart": "#FFA618",
+    "property:typescript": "#B084FF",
+    "property.declaration:typescript": "#79B8FF",
+    "method:typescript": "#79B8FF",
+    "method.declaration:typescript": "#B084FF",
+    "property:typescriptreact": "#B084FF",
+    "property.declaration:typescriptreact": "#79B8FF",
+    "method:typescriptreact": "#79B8FF",
+    "method.declaration:typescriptreact": "#B084FF",
+    "property:javascript": "#B084FF",
+    "property.declaration:javascript": "#79B8FF",
+    "method:javascript": "#79B8FF",
+    "method.declaration:javascript": "#B084FF",
+    "property:javascriptreact": "#B084FF",
+    "property.declaration:javascriptreact": "#79B8FF",
+    "method:javascriptreact": "#79B8FF",
+    "method.declaration:javascriptreact": "#B084FF",
+    "property:vue": "#B084FF",
+    "property.declaration:vue": "#79B8FF",
+    "method:vue": "#79B8FF",
+    "method.declaration:vue": "#B084FF"
   }
 }
