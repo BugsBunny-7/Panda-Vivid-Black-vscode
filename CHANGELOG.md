@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.0 — 2026-11-19
+
+- Add Panda Flutter Dark, a recreation of the official DartPad / Flutter dark syntax colors on the Modern Dark / Modern Cyan near-black interface (`#0C0C0C` background): green keywords (`#50E191`), orange types and literals (`#FF916E`), cyan identifiers, functions, properties, and named arguments (`#00D2FA`), pink strings (`#FA557D`), gray numbers and annotations (`#909090`), and blue-gray comments (`#909CC3`). Existing themes are unchanged.
+
 ## 1.2.1 — 2026-11-18
 
 - Panda Modern Cyan: property access, fields, and getters use purple (`#B084FF`) in Dart, TypeScript, JavaScript, and Vue; member method calls such as `.map()` and `User.fromJson()` use blue (`#79B8FF`). Function and method declarations, plain function calls, named argument labels, and object keys keep their colors.
