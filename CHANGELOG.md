@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1 — 2026-11-20
+
+- Change Panda Flutter Dark numeric literals from gray to `#AFCEA2`, matching Panda Modern Cyan. Includes integers, decimals, and hexadecimal literals; annotation colors are unchanged.
+
 ## 1.3.0 — 2026-11-19
 
 - Add Panda Flutter Dark, a recreation of the official DartPad / Flutter dark syntax colors on the Modern Dark / Modern Cyan near-black interface (`#0C0C0C` background): green keywords (`#50E191`), orange types and literals (`#FF916E`), cyan identifiers, functions, properties, and named arguments (`#00D2FA`), pink strings (`#FA557D`), gray numbers and annotations (`#909090`), and blue-gray comments (`#909CC3`). Existing themes are unchanged.
