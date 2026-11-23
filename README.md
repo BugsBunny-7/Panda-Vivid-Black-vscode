@@ -91,23 +91,107 @@ Select **Panda Flutter Dark** from **Preferences: Color Theme**.
 
 Generated from the VS Code theme color definitions. These illustrate token colors; they are not editor screenshots. Language grammars and semantic providers can assign different roles. Font styling is simplified in these previews.
 
-以下为主题源码生成的配色示意图，不是编辑器实机截图；具体高亮分类由语言扩展决定，预览简化了字体样式。
+示例覆盖 Dart / Flutter、Kotlin、Go、Rust 和 C++。以下为主题源码生成的配色示意图，不是编辑器实机截图；具体高亮分类由语言扩展决定，预览简化了字体样式。
 
 ### Panda Vivid Black
 
 ![Panda Vivid Black Dart palette preview](images/panda-vivid-black-preview.png)
 
+<details>
+<summary>Kotlin · Go · Rust · C++</summary>
+
+**Kotlin**
+
+![Panda Vivid Black Kotlin palette preview](images/panda-vivid-black-kotlin-preview.png)
+
+**Go**
+
+![Panda Vivid Black Go palette preview](images/panda-vivid-black-go-preview.png)
+
+**Rust**
+
+![Panda Vivid Black Rust palette preview](images/panda-vivid-black-rust-preview.png)
+
+**C++**
+
+![Panda Vivid Black C++ palette preview](images/panda-vivid-black-cpp-preview.png)
+
+</details>
+
 ### Panda Modern Dark
 
 ![Panda Modern Dark Dart palette preview](images/panda-modern-dark-preview.png)
+
+<details>
+<summary>Kotlin · Go · Rust · C++</summary>
+
+**Kotlin**
+
+![Panda Modern Dark Kotlin palette preview](images/panda-modern-dark-kotlin-preview.png)
+
+**Go**
+
+![Panda Modern Dark Go palette preview](images/panda-modern-dark-go-preview.png)
+
+**Rust**
+
+![Panda Modern Dark Rust palette preview](images/panda-modern-dark-rust-preview.png)
+
+**C++**
+
+![Panda Modern Dark C++ palette preview](images/panda-modern-dark-cpp-preview.png)
+
+</details>
 
 ### Panda Modern Cyan
 
 ![Panda Modern Cyan Dart palette preview](images/panda-modern-cyan-preview.png)
 
+<details>
+<summary>Kotlin · Go · Rust · C++</summary>
+
+**Kotlin**
+
+![Panda Modern Cyan Kotlin palette preview](images/panda-modern-cyan-kotlin-preview.png)
+
+**Go**
+
+![Panda Modern Cyan Go palette preview](images/panda-modern-cyan-go-preview.png)
+
+**Rust**
+
+![Panda Modern Cyan Rust palette preview](images/panda-modern-cyan-rust-preview.png)
+
+**C++**
+
+![Panda Modern Cyan C++ palette preview](images/panda-modern-cyan-cpp-preview.png)
+
+</details>
+
 ### Panda Flutter Dark
 
 ![Panda Flutter Dark Dart palette preview](images/panda-flutter-dark-preview.png)
+
+<details>
+<summary>Kotlin · Go · Rust · C++</summary>
+
+**Kotlin**
+
+![Panda Flutter Dark Kotlin palette preview](images/panda-flutter-dark-kotlin-preview.png)
+
+**Go**
+
+![Panda Flutter Dark Go palette preview](images/panda-flutter-dark-go-preview.png)
+
+**Rust**
+
+![Panda Flutter Dark Rust palette preview](images/panda-flutter-dark-rust-preview.png)
+
+**C++**
+
+![Panda Flutter Dark C++ palette preview](images/panda-flutter-dark-cpp-preview.png)
+
+</details>
 
 ## In the editor / 实际运行截图
 

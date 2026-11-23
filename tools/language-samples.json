@@ -1,0 +1,18 @@
+{
+  "kotlin": {
+    "label": "Kotlin",
+    "code": "{keyword|data class} {type|User}(\n    {keyword|val} {property|name}: {type|String},\n    {keyword|val} {property|score}: {type|Int}\n)\n\n{keyword|fun} {function|main}() {\n    {keyword|val} {variable|users} = {function|listOf}(\n        {type|User}({string|\"Panda\"}, {number|100}),\n        {type|User}({string|\"Benny\"}, {number|85})\n    )\n    {comment|// Filter users by score}\n    {variable|users}.{function|filter} { {variable|it}.{property|score} >= {number|90} }\n        .{function|forEach} { {function|println}({variable|it}.{property|name}) }\n}"
+  },
+  "go": {
+    "label": "Go",
+    "code": "{keyword|package} {variable|main}\n\n{keyword|import} {string|\"fmt\"}\n\n{keyword|type} {type|User} {keyword|struct} {\n    {property|Name}  {type|string}\n    {property|Score} {type|int}\n}\n\n{keyword|func} {function|main}() {\n    {variable|user} := {type|User}{{property|Name}: {string|\"Panda\"}, {property|Score}: {number|100}}\n    {comment|// Print a formatted score}\n    {variable|fmt}.{function|Printf}({string|\"%s: %d\\n\"}, {variable|user}.{property|Name}, {variable|user}.{property|Score})\n}"
+  },
+  "rust": {
+    "label": "Rust",
+    "code": "{keyword|struct} {type|User} {\n    {property|name}: {type|String},\n    {property|score}: {type|u32},\n}\n\n{keyword|fn} {function|main}() {\n    {keyword|let} {variable|user} = {type|User} {\n        {property|name}: {type|String}::{function|from}({string|\"Panda\"}),\n        {property|score}: {number|100},\n    };\n    {comment|// Borrow the name and print the score}\n    {keyword|let} {variable|name} = &{variable|user}.{property|name};\n    {function|println!}({string|\"&#123;&#125;: &#123;&#125;\"}, {variable|name}, {variable|user}.{property|score});\n}"
+  },
+  "cpp": {
+    "label": "C++",
+    "code": "{keyword|#include} {string|<iostream>}\n{keyword|#include} {string|<string>}\n\n{keyword|struct} {type|User} {\n    {variable|std}::{type|string} {property|name};\n    {type|int} {property|score};\n};\n\n{type|int} {function|main}() {\n    {keyword|const} {type|User} {variable|user}{{string|\"Panda\"}, {number|100}};\n    {comment|// Stream the result to the console}\n    {variable|std}::{variable|cout} << {variable|user}.{property|name} << {string|\": \"}\n              << {variable|user}.{property|score} << {string|'\\n'};\n    {keyword|return} {number|0};\n}"
+  }
+}

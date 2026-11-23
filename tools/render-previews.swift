@@ -2,7 +2,7 @@
 import AppKit
 import Foundation
 struct Segment: Decodable { let text: String; let color: String }
-struct Preview: Decodable { let slug: String; let name: String; let background: String; let lines: [[Segment]] }
+struct Preview: Decodable { let slug: String; let name: String; let language: String; let background: String; let lines: [[Segment]] }
 func color(_ hex: String) -> NSColor {
     let rgb = UInt32(hex.dropFirst().prefix(6), radix: 16)!
     return NSColor(srgbRed: CGFloat((rgb >> 16) & 255)/255, green: CGFloat((rgb >> 8) & 255)/255, blue: CGFloat(rgb & 255)/255, alpha: 1)
@@ -23,9 +23,9 @@ for preview in previews {
         return (text as NSString).size(withAttributes: attrs).width
     }
     _ = draw(preview.name, 44, 710, "#ECE9E8", NSFont.systemFont(ofSize: 30, weight: .medium))
-    _ = draw("Dart / Flutter · Palette preview", 44, 669, "#B8B8B8", NSFont.systemFont(ofSize: 18))
+    _ = draw(preview.language + " · Palette preview", 44, 669, "#B8B8B8", NSFont.systemFont(ofSize: 18))
     for (index, line) in preview.lines.enumerated() {
-        let y = CGFloat(606 - index * 39)
+        let y = CGFloat(606 - index * 36)
         _ = draw(String(format: "%2d", index+1), 40, y, "#777777", font)
         var x: CGFloat = 100
         for segment in line { x += draw(segment.text, x, y, segment.color, font) }
