@@ -65,15 +65,15 @@ Select **Panda Modern Cyan** from **Preferences: Color Theme**.
 
 ## Panda Flutter Dark / 新增主题
 
-**Panda Flutter Dark** recreates the official DartPad / Flutter dark syntax colors on the same near-black interface as Panda Modern Dark and Panda Modern Cyan. Keywords are green, types and `true` / `false` / `null` are orange, and identifiers, functions, properties, and named argument labels share one cyan.
+**Panda Flutter Dark** adapts the DartPad / Flutter dark syntax palette on the same near-black interface as Panda Modern Dark and Panda Modern Cyan. Keywords are green, types and `true` / `false` / `null` are orange, and identifiers, functions, properties, and named argument labels share one cyan.
 
-**Panda Flutter Dark** 在与 Modern Dark、Modern Cyan 相同的近黑界面上复刻 DartPad / Flutter 官方暗色语法配色：关键字绿色，类型和 `true` / `false` / `null` 橙色，变量、函数、属性和命名参数标签统一使用青色。
+**Panda Flutter Dark** 在与 Modern Dark、Modern Cyan 相同的近黑界面上采用 DartPad / Flutter 风格的语法配色：关键字绿色，类型和 `true` / `false` / `null` 橙色，变量、函数、属性和命名参数标签统一使用青色。
 
 | Role / 用途 | Color / 颜色 |
 | --- | --- |
 | Editor background / 编辑器背景 | `#0C0C0C` · same as Modern Dark / Cyan |
 | Keywords / 关键字 | `#50E191` |
-| Types and literals / 类型与字面量 | `#FF916E` |
+| Types, booleans and null / 类型、布尔值与 null | `#FF916E` |
 | Identifiers, functions, properties / 变量、函数、属性 | `#00D2FA` |
 | Strings / 字符串 | `#FA557D` · interpolation `#FF00FA` |
 | Numbers / 数字 | `#AFCEA2` |
@@ -86,6 +86,28 @@ Since **1.3.1**, numeric literals use `#AFCEA2`, matching Panda Modern Cyan. Int
 **1.3.1** 起，整数、小数和十六进制数字统一使用 `#AFCEA2`，与 Panda Modern Cyan 一致；注解仍为 `#909090`。
 
 Select **Panda Flutter Dark** from **Preferences: Color Theme**.
+
+## Theme palette previews / 四套主题配色预览
+
+Generated from the VS Code theme color definitions. These illustrate token colors; they are not editor screenshots. Language grammars and semantic providers can assign different roles. Font styling is simplified in these previews.
+
+以下为主题源码生成的配色示意图，不是编辑器实机截图；具体高亮分类由语言扩展决定，预览简化了字体样式。
+
+### Panda Vivid Black
+
+![Panda Vivid Black Dart palette preview](images/panda-vivid-black-preview.png)
+
+### Panda Modern Dark
+
+![Panda Modern Dark Dart palette preview](images/panda-modern-dark-preview.png)
+
+### Panda Modern Cyan
+
+![Panda Modern Cyan Dart palette preview](images/panda-modern-cyan-preview.png)
+
+### Panda Flutter Dark
+
+![Panda Flutter Dark Dart palette preview](images/panda-flutter-dark-preview.png)
 
 ## In the editor / 实际运行截图
 
@@ -101,7 +123,7 @@ Captured in VS Code on macOS with Panda Vivid Black installed. These are real ed
 
 以上为主题实际运行截图；字体、图标、布局与额外扩展装饰不属于主题。第二张展示配置文件的语法配色，不是应用自定义颜色后的对比图。
 
-## What you get
+## Panda Vivid Black features / 原版主题特点
 
 - **Near-black surfaces.** The editor, gutter, minimap, terminal, and bottom panel share `#0B0B0E`.
 - **Distinct syntax colors.** Blue functions, teal types and strings, magenta keywords, orange parameters, and purple numbers help separate code roles.
@@ -113,12 +135,12 @@ Captured in VS Code on macOS with Panda Vivid Black installed. These are real ed
 ## Install and activate
 
 1. Open **Extensions** in VS Code and search for **Panda Vivid Black** by **BennyWu**.
-2. Install or update the extension to **1.3.1** or later.
+2. Install or update the extension to **1.3.2** or later.
 3. Open the Command Palette, run **Preferences: Color Theme**, and select **Panda Vivid Black**, **Panda Modern Dark**, **Panda Modern Cyan**, or **Panda Flutter Dark**.
 
 The extension changes colors only. Keep your preferred fonts, formatters, language extensions, and editor layout.
 
-## Palette
+## Panda Vivid Black palette / 原版主题色板
 
 | Role | Color |
 | --- | --- |
@@ -139,6 +161,38 @@ Exact token roles depend on the language grammar and its semantic highlighting p
 Open **Preferences: Open User Settings (JSON)** from the Command Palette. Merge the keys you need into your existing `settings.json`; do not replace the whole file or create duplicate top-level keys. Use `.vscode/settings.json` instead if the overrides should apply only to one project.
 
 在命令面板执行“首选项：打开用户设置 (JSON)”，把需要的设置合并到已有配置。下面的 `[Panda Vivid Black]` 将覆盖范围限定为本主题，不影响 Glass Dracula 等其他主题。不要直接修改扩展目录里的主题文件，更新扩展会覆盖那些修改。
+
+### Activate Flutter Dark / 启用 Flutter Dark
+
+```json
+{
+  "workbench.colorTheme": "Panda Flutter Dark",
+  "editor.semanticHighlighting.enabled": true
+}
+```
+
+The theme already supplies `#AFCEA2` numbers. Remove old numeric color overrides to follow theme updates automatically. The following optional example pins that color to Flutter Dark only:
+
+主题已内置 `#AFCEA2` 数字色。建议移除旧的数字覆盖规则，以自动跟随主题更新；下面仅供需要固定数字色时使用。
+
+```json
+{
+  "editor.tokenColorCustomizations": {
+    "[Panda Flutter Dark]": {
+      "numbers": "#AFCEA2"
+    }
+  },
+  "editor.semanticTokenColorCustomizations": {
+    "[Panda Flutter Dark]": {
+      "enabled": true,
+      "rules": {
+        "number": "#AFCEA2",
+        "numberLiteral": "#AFCEA2"
+      }
+    }
+  }
+}
+```
 
 ### 1. Backgrounds and selections / 背景与选区
 
@@ -249,7 +303,7 @@ Panda Vivid Black 是由 **BennyWu** 制作的近黑色 VS Code 主题，面向�
 
 **Panda Flutter Dark：** **1.3.0** 新增。复刻 DartPad / Flutter 官方暗色语法配色，背景与界面沿用 Modern Dark / Cyan 的近黑 `#0C0C0C`；关键字绿色 `#50E191`，类型与 `true` / `false` / `null` 橙色 `#FF916E`，变量、函数、属性、命名参数统一青色 `#00D2FA`，字符串粉色 `#FA557D`，注释 `#909CC3`。**1.3.1** 起数字改为 `#AFCEA2`，注解保持 `#909090`。
 
-**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.3.1** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark**、**Panda Modern Cyan** 或 **Panda Flutter Dark**。不要求更换字体，也不会修改你的格式化与编辑习惯。
+**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.3.2** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark**、**Panda Modern Cyan** 或 **Panda Flutter Dark**。不要求更换字体，也不会修改你的格式化与编辑习惯。
 
 语义颜色取决于语言扩展的分析结果。主题会尽量统一基础高亮与语义高亮的配色，但不承诺语言服务启动耗时。
 

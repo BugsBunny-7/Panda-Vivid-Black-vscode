@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 — 2026-11-24
+
+- Add four source-derived palette previews, refresh extension metadata, and document Flutter Dark activation and numeric color overrides. Syntax colors are unchanged from 1.3.1.
+
 ## 1.3.1 — 2026-11-20
 
 - Change Panda Flutter Dark numeric literals from gray to `#AFCEA2`, matching Panda Modern Cyan. Includes integers, decimals, and hexadecimal literals; annotation colors are unchanged.

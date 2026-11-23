@@ -1,8 +1,8 @@
 {
   "name": "panda-vivid-black",
   "displayName": "Panda Vivid Black",
-  "description": "Panda Vivid Black, Panda Modern Dark, Panda Modern Cyan, and Panda Flutter Dark: dark themes with semantic highlighting for Flutter, Go and Vue.",
-  "version": "1.3.1",
+  "description": "Four Panda dark themes: Vivid Black, Modern Dark, Modern Cyan and Flutter Dark. Semantic colors for Dart/Flutter, Kotlin, Swift, Go and Vue.",
+  "version": "1.3.2",
   "publisher": "BennyWu",
   "license": "MIT",
   "engines": {
@@ -14,9 +14,11 @@
   "keywords": [
     "theme",
     "dark",
-    "black",
     "panda",
     "flutter",
+    "dart",
+    "kotlin",
+    "swift",
     "go",
     "vue"
   ],
