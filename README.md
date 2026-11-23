@@ -76,9 +76,14 @@ Select **Panda Modern Cyan** from **Preferences: Color Theme**.
 | Types and literals / 类型与字面量 | `#FF916E` |
 | Identifiers, functions, properties / 变量、函数、属性 | `#00D2FA` |
 | Strings / 字符串 | `#FA557D` · interpolation `#FF00FA` |
-| Numbers and annotations / 数字、注解 | `#909090` |
+| Numbers / 数字 | `#AFCEA2` |
+| Annotations / 注解 | `#909090` |
 | Comments / 注释 | `#909CC3` |
 | Namespaces / 命名空间 | `#FF9B00` |
+
+Since **1.3.1**, numeric literals use `#AFCEA2`, matching Panda Modern Cyan. Integers, decimals, and hexadecimal literals share this color; annotations remain `#909090`.
+
+**1.3.1** 起，整数、小数和十六进制数字统一使用 `#AFCEA2`，与 Panda Modern Cyan 一致；注解仍为 `#909090`。
 
 Select **Panda Flutter Dark** from **Preferences: Color Theme**.
 
@@ -108,7 +113,7 @@ Captured in VS Code on macOS with Panda Vivid Black installed. These are real ed
 ## Install and activate
 
 1. Open **Extensions** in VS Code and search for **Panda Vivid Black** by **BennyWu**.
-2. Install or update the extension to **1.3.0** or later.
+2. Install or update the extension to **1.3.1** or later.
 3. Open the Command Palette, run **Preferences: Color Theme**, and select **Panda Vivid Black**, **Panda Modern Dark**, **Panda Modern Cyan**, or **Panda Flutter Dark**.
 
 The extension changes colors only. Keep your preferred fonts, formatters, language extensions, and editor layout.
@@ -242,9 +247,9 @@ Panda Vivid Black 是由 **BennyWu** 制作的近黑色 VS Code 主题，面向�
 
 **Panda Modern Cyan：** **1.2.0** 新增。在 Modern Dark 界面上，将类型与类名改为青色 `#00C9B0`，属性与 Dart 命名参数标签改为浅蓝 `#79B8FF`。关键字、函数、字符串和注解配色保持不变。**1.2.1** 起，属性访问与字段改用紫色 `#B084FF`，`.map()` 等成员方法调用改用浅蓝 `#79B8FF`，命名参数标签与函数声明颜色不变。
 
-**Panda Flutter Dark：** **1.3.0** 新增。复刻 DartPad / Flutter 官方暗色语法配色，背景与界面沿用 Modern Dark / Cyan 的近黑 `#0C0C0C`；关键字绿色 `#50E191`，类型与 `true` / `false` / `null` 橙色 `#FF916E`，变量、函数、属性、命名参数统一青色 `#00D2FA`，字符串粉色 `#FA557D`，注释 `#909CC3`。
+**Panda Flutter Dark：** **1.3.0** 新增。复刻 DartPad / Flutter 官方暗色语法配色，背景与界面沿用 Modern Dark / Cyan 的近黑 `#0C0C0C`；关键字绿色 `#50E191`，类型与 `true` / `false` / `null` 橙色 `#FF916E`，变量、函数、属性、命名参数统一青色 `#00D2FA`，字符串粉色 `#FA557D`，注释 `#909CC3`。**1.3.1** 起数字改为 `#AFCEA2`，注解保持 `#909090`。
 
-**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.3.0** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark**、**Panda Modern Cyan** 或 **Panda Flutter Dark**。不要求更换字体，也不会修改你的格式化与编辑习惯。
+**使用方法：** 在扩展市场搜索 **Panda Vivid Black**，安装或更新至 **1.3.1** 后执行“首选项：颜色主题”，选择 **Panda Vivid Black**、**Panda Modern Dark**、**Panda Modern Cyan** 或 **Panda Flutter Dark**。不要求更换字体，也不会修改你的格式化与编辑习惯。
 
 语义颜色取决于语言扩展的分析结果。主题会尽量统一基础高亮与语义高亮的配色，但不承诺语言服务启动耗时。
 
