@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.3 — 2026-11-27
+
+- Match Android Studio in Panda Flutter Dark by coloring Dart annotation names cyan (`#00D2FA`) and the `@` marker gray (`#909090`).
+
 ## 1.3.2 — 2026-11-24
 
 - Add source-derived palette previews for all four themes across Dart/Flutter, Kotlin, Go, Rust and C++, refresh extension metadata, and document Flutter Dark activation and numeric color overrides. Syntax colors are unchanged from 1.3.1.

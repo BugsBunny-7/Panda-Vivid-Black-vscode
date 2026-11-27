@@ -785,7 +785,7 @@
     "variable.importPrefix:dart": "#FF9B00",
     "source:dart": "#00D2FA",
     "annotation:dart": "#909090",
-    "*.annotation:dart": "#909090",
+    "*.annotation:dart": "#00D2FA",
     "newOperator": "#50E191",
     "stringLiteral": "#FA557D",
     "numberLiteral": "#AFCEA2",

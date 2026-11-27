@@ -2,7 +2,7 @@
   "name": "panda-vivid-black",
   "displayName": "Panda Vivid Black",
   "description": "Four Panda dark themes: Vivid Black, Modern Dark, Modern Cyan and Flutter Dark. Color palettes for Dart/Flutter, Kotlin, Go, Rust, C++ and more.",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "publisher": "BennyWu",
   "license": "MIT",
   "engines": {
